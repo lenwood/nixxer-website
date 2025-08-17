@@ -6,6 +6,32 @@ layout = 'top-level'
 toc = true
 +++
 
+## Detection & Blocking
+
+**Q: Why another privacy plugin?**
+
+**A:** Think of Nixxer as a "tracking specialist" - current ad blockers and blocklists handle general privacy protection. Nixxer focuses specifically on sophisticated tracking techniques like zombie cookies, canvas fingerprinting, and analytics platforms that adapt to avoid traditional blocklists. The combination enables both broad protection and deep tracking detection that other tools often miss.
+
+**Q: What's the difference between "Browser-only" and "Network-level" blocking?**
+
+**A:**
+
+- **Browser-only**: Blocks tracking scripts and cookies only within Firefox, doesn't affect other devices/browsers
+- **Network-level**: Blocks tracking domains at your router/DNS level, protecting all devices on your network
+
+**Q: Why doesn't Nixxer block some trackers I know are present?**
+
+**A:** Check these factors:
+
+- Detection sensitivity setting (try "High" for maximum protection)
+- Whether the tracker is self-hosted (shown as yellow "1st Party" in popup)
+- If it's a new/unknown tracker not yet in Nixxer's patterns
+- Enable debug logging to see detailed detection attempts
+
+**Q: What are "zombie cookies" and how does Nixxer stop them?**
+
+**A:** Zombie cookies are tracking mechanisms that recreate themselves even after deletion, using LocalStorage, IndexedDB, canvas fingerprinting, or other browser features. Nixxer actively monitors and prevents these persistence techniques.
+
 ## General Usage
 
 **Q: What exactly does Nixxer block?**
@@ -33,32 +59,6 @@ toc = true
 **Q: Can I use Nixxer with other privacy extensions?**
 
 **A:** Yes, Nixxer is designed to work alongside other privacy tools. However, you may see overlapping functionality with other tracker blockers. Consider adjusting sensitivity settings if you experience conflicts.
-
-## Detection & Blocking
-
-**Q: Why another privacy plugin?**
-
-**A:** Think of Nixxer as a "tracking specialist" - current ad blockers and blocklists handle general privacy protection. Nixxer focuses specifically on sophisticated tracking techniques like zombie cookies, canvas fingerprinting, and analytics platforms that adapt to avoid traditional blocklists. The combination enables both broad protection and deep tracking detection that other tools often miss.
-
-**Q: What's the difference between "Browser-only" and "Network-level" blocking?**
-
-**A:**
-
-- **Browser-only**: Blocks tracking scripts and cookies only within Firefox, doesn't affect other devices/browsers
-- **Network-level**: Blocks tracking domains at your router/DNS level, protecting all devices on your network
-
-**Q: Why doesn't Nixxer block some trackers I know are present?**
-
-**A:** Check these factors:
-
-- Detection sensitivity setting (try "High" for maximum protection)
-- Whether the tracker is self-hosted (shown as yellow "1st Party" in popup)
-- If it's a new/unknown tracker not yet in Nixxer's patterns
-- Enable debug logging to see detailed detection attempts
-
-**Q: What are "zombie cookies" and how does Nixxer stop them?**
-
-**A:** Zombie cookies are tracking mechanisms that recreate themselves even after deletion, using LocalStorage, IndexedDB, canvas fingerprinting, or other browser features. Nixxer actively monitors and prevents these persistence techniques.
 
 ## Export & Network Blocking
 
