@@ -1,1 +1,1 @@
-Aggressive analytics blocker
+Aggressive analytics blocker. Available for [Firefox](https://addons.mozilla.org/addon/nixxer/).

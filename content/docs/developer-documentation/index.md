@@ -15,6 +15,38 @@ description = "Basic info about the plugin's architecture and how to expand it's
 3. **Popup Interface** (`popup.html` & `popup.js`): Manages the extension's popup interface that displays real-time blocking statistics, recent tracker detections with classification labels, toggle controls, and export functionality for generating network-level blocklists.
 4. **Options Page** (`options.html` & `options.js`): Handles the comprehensive settings page where users can configure detection sensitivity, manage storage limits, customize export formats, view detailed domain statistics, and import/export extension data with full error recovery.
 
+### Manual Installation (For Developers)
+
+**Note**: This method is for development purposes only and creates a temporary installation.
+
+1. **Download the extension files**
+   - Save all the provided files in a folder called `Nixxer`
+   - Ensure the following structure:
+   ```
+   Nixxer/
+   ├── manifest.json
+   ├── background.js
+   ├── content.js
+   ├── popup.html
+   ├── popup.js
+   ├── options.html
+   ├── options.js
+   └── icons/
+       ├── icon-16.png
+       ├── icon-32.png
+       ├── icon-48.png
+       ├── icon-128.png
+       └── icon-256.png
+   ```
+
+2. **Load in Firefox**
+   - Open Firefox and navigate to `about:debugging`
+   - Click "This Firefox" in the left sidebar
+   - Click "Load Temporary Add-on"
+   - Select the `manifest.json` file from your Nixxer folder
+
+**Important**: Manually installed extensions are removed when Firefox is closed and must be reloaded each time.
+
 ### Adding New Tracker Support
 
 **1. Define Detection Patterns**

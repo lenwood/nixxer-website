@@ -10,37 +10,15 @@ description = "Get started with the extension here. Learn how to install the plu
 
 ### 1. Installation
 
-###### Manual Installation
+1. **Install from Mozilla Add-ons**
+   - Visit the [Nixxer extension page](https://addons.mozilla.org/addon/nixxer/) on Mozilla Add-ons
+   - Click "Add to Firefox"
+   - Click "Add" when Firefox asks for permission confirmation
+   - The extension will install automatically
 
-1. **Download the extension files**
-   - Save all the provided files in a folder called `Nixxer`
-   - Ensure the following structure:
-   ```
-   Nixxer/
-   ├── manifest.json
-   ├── background.js
-   ├── content.js
-   ├── popup.html
-   ├── popup.js
-   ├── options.html
-   ├── options.js
-   └── icons/
-       ├── icon-16.png
-       ├── icon-32.png
-       ├── icon-48.png
-       ├── icon-128.png
-       └── icon-256.png
-   ```
-
-2. **Load in Firefox**
-   - Open Firefox and navigate to `about:debugging`
-   - Click "This Firefox" in the left sidebar
-   - Click "Load Temporary Add-on"
-   - Select the `manifest.json` file from your Nixxer folder
-
-###### Permanent Installation
-
-If the extension is signed by Mozilla users will have the option for installing directly via Mozilla Add-Ons.
+2. **Verify Installation**
+   - Look for the Nixxer icon in your Firefox toolbar
+   - If not visible, click the puzzle piece icon and pin Nixxer to your toolbar
 
 ### 2. Initial Setup
 
