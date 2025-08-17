@@ -73,7 +73,7 @@ toc = true
 - **Pi-hole**: Most popular home network blocker
 - **NextDNS**: Cloud-based DNS filtering service
 - **Hosts file**: Manual system-level blocking
-- **AdGuard Home**: Self-hosted alternative to Pi-hole
+- **AdGuard DNS**: Self-hosted alternative to Pi-hole
 
 **Q: How often should I export new blocklists?**
 
@@ -81,7 +81,7 @@ toc = true
 
 **Q: Can I import blocklists from other sources into Nixxer?**
 
-**A:** No, Nixxer only imports its own backup files and doesn't accept external blocklists. However, this is by design - Nixxer isn't meant to replace your existing blocking tools, but to make them more effective at stopping tracking. You can use your existing blocklists in Pi-hole, NextDNS, or AdGuard Home alongside Nixxer's exported domains as an additional list.
+**A:** No, Nixxer only imports its own backup files and doesn't accept external blocklists. However, this is by design - Nixxer isn't meant to replace your existing blocking tools, but to make them more effective at stopping tracking. You can use your existing blocklists in Pi-hole, NextDNS, or AdGuard DNS alongside Nixxer's exported domains as an additional list.
 
 ## Settings & Configuration
 

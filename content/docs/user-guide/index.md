@@ -40,7 +40,7 @@ description = 'Learn how to operate the Nixxer Firefox extension. This page cove
 - **Pi-hole**: Plain text domain list
 - **NextDNS**: JSON format with metadata
 - **Hosts File**: Standard hosts file format
-- **AdGuard Home**: Filter rule format
+- **AdGuard DNS**: Filter rule format
 
 #### Statistics Tracking
 
@@ -83,9 +83,9 @@ Access via popup → Options or right-click extension icon
 3. Go to Denylist → Import
 4. Upload the JSON file
 
-**AdGuard Home Integration**
+**AdGuard DNS Integration**
 
 1. Export in AdGuard format
-2. Access AdGuard Home admin panel
+2. Access AdGuard DNS admin panel
 3. Go to Filters → DNS blocklists
 4. Add custom list with exported content

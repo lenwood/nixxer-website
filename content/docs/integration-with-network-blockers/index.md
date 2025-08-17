@@ -28,6 +28,8 @@ Exported blocklists contain only third-party tracking domains (like google-analy
    - Add the exported file URL or paste content
    - Update gravity: pihole -g
 
+More info is available within [Pi-hole Gravity documentation](https://docs.pi-hole.net/main/pihole-command/#gravity).
+
 **NextDNS Setup**
 
 1. Export in NextDNS format.
@@ -35,12 +37,14 @@ Exported blocklists contain only third-party tracking domains (like google-analy
 3. Go to Denylist → Import.
 4. Upload the JSON file
 
-**AdGuard Home Setup**
+**AdGuard DNS Setup**
 
 1. Export in AdGuard format.
 2. Access AdGuard Home admin panel.
 3. Go to Filters → DNS blocklists.
 4. Add custom list and paste content
+
+For more info read the [AdGuard DNS blocklist documentation](https://adguard-dns.io/kb/private-dns/setting-up-filtering/blocklists/).
 
 **Manual Hosts File**
 

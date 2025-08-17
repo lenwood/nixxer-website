@@ -413,11 +413,11 @@ Export JSON file when ready to update blocklist
 Import to NextDNS via dashboard or API
 Monitor effectiveness and update as needed
 
-AdGuard Home Setup
+AdGuard DNS Setup
 
 Configure AdGuard format in export settings
 Generate blocklist from detected domains
-Add custom filter in AdGuard Home
+Add custom filter in AdGuard DNS
 Set update schedule for regular domain list refresh
 Monitor blocking and adjust sensitivity as needed
 

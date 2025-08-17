@@ -10,7 +10,7 @@ description = 'Changelog for the plugin.'
 - **Multi-Platform Tracking Protection** - Google Analytics, Facebook/Meta, Adobe Analytics, TikTok, session recording tools
 - **Intelligent Detection Methods** - Real-time request blocking, cookie pattern matching, JavaScript function detection
 - **Smart Domain Management** - Selective network blocking with third-party vs self-hosted classification
-- **Export & Migration Tools** - Pi-hole, NextDNS, hosts file, and AdGuard Home formats
+- **Export & Migration Tools** - Pi-hole, NextDNS, hosts file, and AdGuard DNS formats
 - **Zombie Cookie Protection** - LocalStorage, IndexedDB, and canvas fingerprinting prevention
 - **Detailed Analytics** - Real-time statistics with tracker type classification
 - **Performance Optimized** - Efficient pattern matching with minimal browser impact

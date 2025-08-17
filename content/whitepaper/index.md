@@ -256,7 +256,7 @@ analytics.tiktok.com
 }
 ```
 
-**AdGuard Home Rules**:
+**AdGuard DNS Rules**:
 ```
 ||google-analytics.com^
 ||connect.facebook.net^

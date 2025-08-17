@@ -53,7 +53,7 @@ description = "Get started with the extension here. Learn how to install the plu
 - **Pi-hole**: Plain text domain list
 - **NextDNS**: JSON format with metadata
 - **Hosts File**: Standard hosts file format
-- **AdGuard Home**: Filter rule format
+- **AdGuard DNS**: Filter rule format
 
 ###### Statistics Tracking
 
